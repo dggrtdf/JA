@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Links -->
+  <link rel="icon" type="image/png" href="img/icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/world.css" />
+  <!-- Inline CSS for Header Alignment -->
+  <style>
+    header h1 {
+      text-align: right; /* لتوسيط النص لليمين */
+      margin-right: 20px; /* مسافة صغيرة من اليمين */
+      font-size: 2em; /* حجم الخط */
+      color: #333; /* لون النص */
+    }
+  </style>
+  <!-- Title -->
+  <title>World Explorer - جعفر</title>
+</head>
+
+<body>
+  <div class="pc">
+    <!-- Header Section -->
+    <header>
+      <h1>جعفر</h1>
+    </header>
+    
+    <!-- Navigation Section -->
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Home"><i class="fa-solid fa-location-arrow"></i></a></li>
+        <li><a href="search.html" title="Search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a class="active" href="world.html" title="World"><i class="fa-solid fa-earth-americas"></i></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="section">
+      <div class="date">April 7, 2024</div>
+      <button class="button"><i class="fa-solid fa-circle-plus btn-icon"></i></button>
+    </div>
+
+    <!-- Add Section -->
+    <div class="section-box">
+      <div class="add-section">
+        <div class="add-section-title">
+          <h2>Add a New Place</h2>
+        </div>
+        
+        <!-- Search -->
+        <div class="search">
+          <div class="search-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <input class="searchinput" type="text" placeholder="Search..." />
+        </div>
+        
+        <!-- Messages -->
+        <div class="messages">
+          <div class="error-message">City not found</div>
+          <div class="normal-message">Search your city to add</div>
+          <div class="added-message">Successfully added ✔</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section for Copyright -->
+  <footer>
+    <p>&copy; 2024 المطور جعفر القريشي </p>
+    <p>للتواصل عبر التلي @AAj0A</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/world.js"></script>
+</body>
+
+</html>
